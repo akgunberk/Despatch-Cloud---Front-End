@@ -13,12 +13,13 @@ div > input {
 }
 
 div > img:first-child {
-    margin-left: 24px;
-    margin-right:29.1px;
+    margin-left: 28px;
+    margin-right:25.1px;
 }
 
 div > img:nth-child(2) {
     margin-right:53.2px;
+    width: 200.85px;
 }
 
 div > img:nth-child(3) {

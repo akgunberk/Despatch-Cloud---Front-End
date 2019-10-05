@@ -1,24 +1,25 @@
 import React from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
-import Navbar from './Navbar';
+import './Main.css';
+import Sidebar from './Sidebar';
+
 
 const Main = () => (
-  <Grid columns='equal'>
-    <Grid.Column>
-      <Segment>
-            <Navbar/>
-      </Segment>
+  <Grid>
+
+    <Grid.Column id ="first">
+      <Sidebar/>
+
     </Grid.Column>
-    <Grid.Column width={8}>
-      <Segment>
+
+    <Grid.Column id="second">
       <div>Berk</div>
-      </Segment>
     </Grid.Column>
-    <Grid.Column>
-      <Segment>
-          <div>Berk</div>
-      </Segment>
+
+    <Grid.Column id ="third">
+        <div>Berk</div>
     </Grid.Column>
+    
   </Grid>
 )
 

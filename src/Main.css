@@ -1,0 +1,30 @@
+#first.column {
+    width: 258px;
+    height: 1018px;
+    padding: 0px;
+    display: block;
+}
+#first.column >div {
+    position: absolute;
+    left: 0;
+    top: 17px ;
+    background:  #25BBF3;
+    border-top-right-radius: 79px;
+    border-bottom-right-radius: 79px;
+}
+
+#second.column {
+    width: 1085px;
+    padding: 0px;
+    height: 1018px;
+    background-color: #F5F6F6
+}
+
+#third.column {
+    width: 577px;
+    padding: 0px;
+    height: 1018px;
+}
+
+
+
