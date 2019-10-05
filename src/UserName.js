@@ -12,15 +12,18 @@ export default class User extends Component {
         var UserStyle = {
             display:"inline",
             height:"62px",
-            marginLeft:"1314.3px"
+            width: "74px",
+            marginLeft:"1314.3px",
+            textAlign:"right"
     }
         return (
         <React.Fragment>
           <div style = {UserStyle}>
-            <h2 >{this.state.name}</h2>
-            <p style = {{float:"right"}}>{this.state.user}</p>
+            <p style = {{width:"74px",fontSize:"12px",fontWeight:"bold",marginTop:"15px",marginBottom:"2px"}} >{this.state.name}</p>
+            <p style = {{fontSize:"9px" ,fontWeight:"light"}}>{this.state.user}</p>
           </div>
-          <img style ={{float:"right"}} src = {UserLogo} alt = "RightIcon"></img>
+          <img src={UserLogo} alt="Admin Logo" style={{marginRight:"10.5px"}}></img>
+          
           </React.Fragment>
         );
         

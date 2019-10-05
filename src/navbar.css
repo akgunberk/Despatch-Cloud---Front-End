@@ -1,5 +1,6 @@
 .Navbar {
     height: 62px;
+    width: 1920px;
 }
 
 div {
@@ -24,6 +25,9 @@ div > img:nth-child(3) {
     margin-right:14px;
 }
 
-div > img:nth-child(4) {
+div > input {
     margin-right:0px;
+    width: 102px;
+    font-size: 17px;
+    font-weight: light;
 }
