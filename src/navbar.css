@@ -1,0 +1,29 @@
+.Navbar {
+    height: 62px;
+}
+
+div {
+    display: inline-flex;
+}
+
+div > input {
+    border: none;
+    font-size: 20px;
+}
+
+div > img:first-child {
+    margin-left: 24px;
+    margin-right:29.1px;
+}
+
+div > img:nth-child(2) {
+    margin-right:53.2px;
+}
+
+div > img:nth-child(3) {
+    margin-right:14px;
+}
+
+div > img:nth-child(4) {
+    margin-right:0px;
+}
