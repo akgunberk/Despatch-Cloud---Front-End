@@ -75,8 +75,11 @@ b {
     margin-bottom: 0px;
 }
 
-
-
-
+#CreateTicket {
+    float: left;
+    margin: 11px 26.4px 10px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 

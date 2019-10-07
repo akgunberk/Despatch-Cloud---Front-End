@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { List } from 'semantic-ui-react';
-import Sidebar from './Sidebar';
 
 export default class Tickets extends Component {
  /*    constructor(props) {
@@ -19,7 +18,7 @@ export default class Tickets extends Component {
         return (
         <React.Fragment>
             <div>
-                <Sidebar/>
+                
 
                 <List style={UserStyle}>
                     <b>Tickets</b>
