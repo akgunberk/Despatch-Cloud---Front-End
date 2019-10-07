@@ -15,7 +15,7 @@ class Navbar extends Component {
                     <img src={DespatchLogo} alt="Despatch" />
                     <img src={SearchIcon} alt="Search" />
                     <input placeholder='Search Here'></input>
-                    <User style = {{display : "inherit"}}/>
+                    <User />
                 </div>
         )
     

@@ -31,4 +31,5 @@ div > input {
     width: 102px;
     font-size: 17px;
     font-weight: light;
+    outline: 0;
 }

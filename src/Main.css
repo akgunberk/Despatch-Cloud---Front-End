@@ -3,28 +3,80 @@
     height: 1018px;
     padding: 0px;
     display: block;
+    overflow-y: scroll;
 }
-#first.column >div {
-    position: absolute;
-    left: 0;
-    top: 17px ;
-    background:  #25BBF3;
-    border-top-right-radius: 79px;
-    border-bottom-right-radius: 79px;
+
+#first.column::-webkit-scrollbar {
+    width: 5.42px;
+    height: 119px;
+    
 }
 
 #second.column {
     width: 1085px;
     padding: 0px;
     height: 1018px;
-    background-color: #F5F6F6
+    background-color: #F5F6F6;
+    
 }
 
 #third.column {
+    display: block;
     width: 577px;
     padding: 0px;
     height: 1018px;
+    align-items: center;
+    justify-content: center;
 }
+
+div.ui.list {
+    left: 0%;
+    width: 205px;
+    height: 149px;
+}
+
+svg {
+    margin-right: 11px;
+}
+
+#rect {
+    width: 251.3px;
+    height: 128px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow:3px 0px 15px #f3f3f3 ,32px -54px 15px #F3F3F3;
+    display: block;
+    margin: 0px 169.5px 403px 156.5px;
+}
+#firstEllips {
+    width: 80px;
+    height: 9px;
+    background: #F3F3F3;
+    border-radius: 4.5px;
+    margin: 53px 137.5px 14px 33.5px;
+    float: left;
+}
+#secondEllips {
+    width: 160px;
+    height: 9px;
+    background: #F3F3F3;
+    border-radius: 4.5px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 33.5px;
+}
+#shadowEllips > svg {
+    margin: 473px 5px 0px 0px;
+}
+
+b {
+    height: 24px;
+    margin-top: 386.2px;
+    margin-bottom: 0px;
+}
+
+
+
 
 
 
