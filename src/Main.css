@@ -82,4 +82,32 @@ b {
     border-bottom-right-radius: 5px;
 }
 
+@media screen and (max-width: 415px) {
+   
 
+    
+
+    #DespatchLogo{
+        
+
+        margin : 0px 66.1px 0px 58.1px;
+    }
+
+    #Toggle {
+        
+        margin : 0px 0px 0px 21px;
+    }
+
+    #RighTop {
+        
+        margin : 0px 13.5px 0px 0px;
+    }
+
+    #Tickets > ul  {
+        padding: 13px 42.5px 15px 48px;
+    }
+
+
+    
+  
+  }

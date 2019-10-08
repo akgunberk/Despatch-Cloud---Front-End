@@ -5,17 +5,20 @@ import DespatchLogo from './despatch-cloud.svg';
 import SearchIcon from './search-icon.svg';
 import './navbar.css';
 import User from './UserName';
+import {Responsive} from 'semantic-ui-react'
 
 class Navbar extends Component {
 
     render () {
         return (
                 <div className = "Navbar">
-                    <img src={MenuIcon} alt="Logo" />
-                    <img src={DespatchLogo} alt="Despatch" />
-                    <img src={SearchIcon} alt="Search" />
-                    <input placeholder='Search Here'></input>
-                    <User />
+                    <img id = "Toggle"src={MenuIcon} alt="Logo" />
+                    <img id ="DespatchLogo" src={DespatchLogo} alt="Despatch" />
+                    <Responsive minWidth={415}>
+                        <img src={SearchIcon} alt="Search" />
+                        <input placeholder='Search Here'></input>
+                    </Responsive>
+                    <User/>
                 </div>
         )
     
