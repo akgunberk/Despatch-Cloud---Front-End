@@ -7,6 +7,7 @@ import Priority from './Priority';
 import Tags from './Tags';
 import MiddleColumn from './MiddleColumn';
 import ThirdColumn from './ThirdColumn';
+import {Checkbox} from 'semantic-ui-react';
 
 
 
@@ -24,9 +25,13 @@ const Main = () => (
     </Responsive>
 
     <Grid.Column id="second"> {/* Middle Column employs the active tickets */}
-    
+    <Responsive minWidth={415}>
+      <p style={{position:"absolute",left:"14px"}}><Checkbox style={{marginTop:"21.4px"}}></Checkbox>Select All</p>
+    </Responsive>
       <div class="ui container">
+        <p style = {{marginTop:"28px"}}>11th July 2019</p>
         <MiddleColumn/>
+        <p style = {{marginTop:"28px"}}>12th July 2019</p>
         <MiddleColumn/>
         <MiddleColumn/>
       </div>

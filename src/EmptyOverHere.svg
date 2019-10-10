@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355" height="311.691" viewBox="0 0 355 311.691">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="355" height="311.691" fill="none"/>
+    </clipPath>
+    <filter id="Rectangle_1380" x="57.977" y="57.5" width="296.03" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1381" x="25.977" y="111.5" width="296.03" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_1" data-name="Component 1" clip-path="url(#clip-path)">
+    <g id="Group_1740" data-name="Group 1740">
+      <g id="Group_1702" data-name="Group 1702">
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1380)">
+          <rect id="Rectangle_1380-2" data-name="Rectangle 1380" width="251.03" height="128" rx="8" transform="translate(77.48 80)" fill="#f3f3f3"/>
+        </g>
+        <rect id="Rectangle_1386" data-name="Rectangle 1386" width="80" height="9" rx="4.5" transform="translate(126 120)" fill="#e1e1e1"/>
+        <rect id="Rectangle_1387" data-name="Rectangle 1387" width="160" height="9" rx="4.5" transform="translate(126 143)" fill="#e1e1e1"/>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1381)">
+          <rect id="Rectangle_1381-2" data-name="Rectangle 1381" width="251.03" height="128" rx="8" transform="translate(45.48 134)" fill="#fff"/>
+        </g>
+        <circle id="Ellipse_205" data-name="Ellipse 205" cx="7" cy="7" r="7" transform="translate(0 129)" fill="#e1e1e1"/>
+        <circle id="Ellipse_206" data-name="Ellipse 206" cx="7" cy="7" r="7" transform="translate(321 215)" fill="#e1e1e1"/>
+        <g id="Ellipse_207" data-name="Ellipse 207" transform="translate(290 12)" fill="none" stroke="#e1e1e1" stroke-width="2">
+          <circle cx="7" cy="7" r="7" stroke="none"/>
+          <circle cx="7" cy="7" r="6" fill="none"/>
+        </g>
+        <g id="Ellipse_208" data-name="Ellipse 208" transform="translate(31 48)" fill="none" stroke="#e1e1e1" stroke-width="2">
+          <circle cx="7" cy="7" r="7" stroke="none"/>
+          <circle cx="7" cy="7" r="6" fill="none"/>
+        </g>
+        <g id="Polygon_1" data-name="Polygon 1" transform="translate(119)" fill="none">
+          <path d="M7,0l7,12H0Z" stroke="none"/>
+          <path d="M 7 3.969271659851074 L 3.482074737548828 10 L 10.51792526245117 10 L 7 3.969271659851074 M 7 0 L 14 12 L 0 12 L 7 0 Z" stroke="none" fill="#e1e1e1"/>
+        </g>
+        <path id="Polygon_2" data-name="Polygon 2" d="M7,0l7,12H0Z" transform="translate(341 98)" fill="#e1e1e1"/>
+        <g id="Polygon_3" data-name="Polygon 3" transform="translate(4 213)" fill="none">
+          <path d="M7,0l7,12H0Z" stroke="none"/>
+          <path d="M 7 3.969271659851074 L 3.482074737548828 10 L 10.51792526245117 10 L 7 3.969271659851074 M 7 0 L 14 12 L 0 12 L 7 0 Z" stroke="none" fill="#e1e1e1"/>
+        </g>
+        <rect id="Rectangle_1393" data-name="Rectangle 1393" width="80" height="9" rx="4.5" transform="translate(79 187)" fill="#f3f3f3"/>
+        <rect id="Rectangle_1394" data-name="Rectangle 1394" width="160" height="9" rx="4.5" transform="translate(79 210)" fill="#f3f3f3"/>
+      </g>
+      <text id="Add_a_new_address" data-name="Add a new address" transform="translate(178 306.691)" fill="#627688" font-size="13" font-family="Helvetica"><tspan x="-88.331" y="0">Psst, try clicking on a ticket </tspan><tspan y="0" font-family="AppleColorEmoji, Apple Color Emoji">👀</tspan></text>
+    </g>
+    <text id="Add_a_new_address-2" data-name="Add a new address" transform="translate(79 52.174)" fill="#33475a" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">It&apos;s empty over here</tspan></text>
+  </g>
+</svg>
