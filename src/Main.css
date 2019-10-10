@@ -21,6 +21,11 @@
     
 }
 
+#second > .ui.container {
+    float: left;
+    display: block;
+}
+
 #third.column {
     display: block;
     width: 577px;
@@ -83,8 +88,10 @@ svg {
     border-bottom-right-radius: 5px;
 }
 
-#TicketSummary  {
-    float: left;
+#TicketSummary > p {
+    
+    width: auto;
+    height: auto;
 }
 
 
@@ -116,8 +123,8 @@ svg {
     }
 
     #Tickets > ul  {
-        padding: 13px 42.5px 15px 48px;
-        width: 323.5px;
+        
+        width: 414px;
         border-width: 100px;
     }
 

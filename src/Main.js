@@ -14,8 +14,8 @@ import ThirdColumn from './ThirdColumn';
 
 const Main = () => (
   <Grid>
-    <Responsive minWidth={415}>
-    <Grid.Column id ="first"> {/* Left Side Bar which employs mainly ticket types, priorities and tags */}
+    <Responsive minWidth={415} style={{paddingRight:"0"}}>
+    <Grid.Column id ="first" > {/* Left Side Bar which employs mainly ticket types, priorities and tags */}
       <Side/>
       <Tickets/>
       <Priority/>

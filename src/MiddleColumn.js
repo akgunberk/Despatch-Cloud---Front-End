@@ -18,7 +18,7 @@ export default class MiddleColumn extends Component {
           return (
 
             <React.Fragment>
-              <div id="Tickets" style = {{display:"block"}}>
+              <div id="Tickets" style = {{display:"block",float:"left"}}>
                 {tickets.map(c => (
                 
                 <TicketList id = {c.id} author = {c.author} body = {c.body} summary = {c.summary} context = {c.context} priority = {c.priority} hour = {c.hour}/>)
