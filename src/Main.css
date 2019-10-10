@@ -17,6 +17,7 @@
     padding: 0px;
     height: 1018px;
     background-color: #F5F6F6;
+    overflow: hidden;
     
 }
 
@@ -69,7 +70,7 @@ svg {
     margin: 473px 5px 0px 0px;
 }
 
-b {
+#first > b {
     height: 24px;
     margin-top: 386.2px;
     margin-bottom: 0px;
@@ -80,6 +81,17 @@ b {
     margin: 11px 26.4px 10px 0px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+#TicketSummary  {
+    float: left;
+}
+
+
+.ui.checked.fitted.checkbox label:before {
+    background-color: #25BBF3;
+    border-radius: 2px;
+
 }
 
 @media screen and (max-width: 415px) {
@@ -105,9 +117,16 @@ b {
 
     #Tickets > ul  {
         padding: 13px 42.5px 15px 48px;
+        width: 323.5px;
+        border-width: 100px;
     }
 
+    #Tickets > ul > p  {
+        border-width:100px;
+        width: 323.5px;
+    }
 
-    
-  
+   
+
+
   }

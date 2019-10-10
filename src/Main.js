@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Responsive } from 'semantic-ui-react';
 import './Main.css';
-import Sidebar from './Sidebar';
+import Side from './Side';
 import Tickets from './Tickets';
 import Priority from './Priority';
 import Tags from './Tags';
@@ -10,11 +10,13 @@ import ThirdColumn from './ThirdColumn';
 
 
 
+
+
 const Main = () => (
   <Grid>
     <Responsive minWidth={415}>
     <Grid.Column id ="first"> {/* Left Side Bar which employs mainly ticket types, priorities and tags */}
-      <Sidebar/>
+      <Side/>
       <Tickets/>
       <Priority/>
       <Tags/>
