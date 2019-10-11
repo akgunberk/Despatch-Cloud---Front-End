@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.094" height="108.965" viewBox="0 0 102.094 108.965">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="102.094" height="108.965" fill="none"/>
+    </clipPath>
+    <filter id="Ellipse_225" x="0" y="8.31" width="100.655" height="100.655" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_225-2" x="32.916" y="0" width="69.177" height="69.177" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_1" data-name="Component 1" clip-path="url(#clip-path)">
+    <g id="Group_1776" data-name="Group 1776" transform="translate(19.5 30.81)">
+      <g transform="matrix(1, 0, 0, 1, -19.5, -30.81)" filter="url(#Ellipse_225)">
+        <circle id="Ellipse_225-3" data-name="Ellipse 225" cx="27.828" cy="27.828" r="27.828" transform="translate(19.5 30.81)" fill="#25bbf3"/>
+      </g>
+    </g>
+    <g id="paper-plane-duotone" transform="translate(35.689 49.06)">
+      <path id="Path_763" data-name="Path 763" d="M132.757,115.989l-3.017,3.735a.965.965,0,0,1-1.71-.636v-5.211l11.275-10.169a.241.241,0,0,1,.346.334l-9.059,11.037Z" transform="translate(-122.878 -99.474)" fill="rgba(255,255,255,0.44)"/>
+      <path id="Path_764" data-name="Path 764" d="M20.563,1.125l-2.9,17.38a.968.968,0,0,1-1.328.732L7.694,15.6,16.753,4.567a.241.241,0,0,0-.346-.334L5.13,14.4.572,12.625a.966.966,0,0,1-.089-1.738L19.131.129A.965.965,0,0,1,20.563,1.125Z" transform="translate(0.02 0.001)" fill="#fff"/>
+    </g>
+    <g id="Group_1778" data-name="Group 1778" transform="translate(52.416 22.5)">
+      <g transform="matrix(1, 0, 0, 1, -52.42, -22.5)" filter="url(#Ellipse_225-2)">
+        <circle id="Ellipse_225-4" data-name="Ellipse 225" cx="12.089" cy="12.089" r="12.089" transform="translate(52.42 22.5)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="plus-solid_9_" data-name="plus-solid (9)" d="M8.813,35.728H5.762V32.678A.678.678,0,0,0,5.084,32H4.406a.678.678,0,0,0-.678.678v3.051H.678A.678.678,0,0,0,0,36.406v.678a.678.678,0,0,0,.678.678H3.728v3.051a.678.678,0,0,0,.678.678h.678a.678.678,0,0,0,.678-.678V37.762H8.813a.678.678,0,0,0,.678-.678v-.678A.678.678,0,0,0,8.813,35.728Z" transform="translate(60.103 -1.813)" fill="#25bbf3"/>
+  </g>
+</svg>

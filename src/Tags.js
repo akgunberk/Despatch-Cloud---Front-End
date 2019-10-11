@@ -27,7 +27,7 @@ export default class Tags extends Component {
                 </div>
             </div>
             <div style ={{marginLeft:"23px",display:"block",textAlign:"left"}}>
-            {tags.map(c=>( <div style ={{padding:"11.3px 7.3px 11.3px 0px"}} >{c}<Label size='mini' circular style={{width:"13.35px"}}>x</Label></div>))}
+            {tags.map(c=>( <div style ={{padding:"11.3px 15.3px 11.3px 0px"}} >{c}<Label size='mini' circular style={{width:"13.35px"}}>x</Label></div>))}
             </div>
         </React.Fragment>
         );

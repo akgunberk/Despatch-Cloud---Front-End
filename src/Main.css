@@ -99,7 +99,7 @@ svg {
 
 
 .ui.fitted.checkbox label:before {
-    background-color: #25BBF3;
+    background-color: white;
     border-radius: 2px;
 
 }
@@ -110,10 +110,18 @@ svg {
 
 }
 
+#RighTop {
+        
+    margin : 0px 10px 0px 0px;
+    float: left;
+}
+
 @media screen and (max-width: 415px) {
    
 
-    
+    #second.column {
+        background-color: white;
+    }
 
     #DespatchLogo{
         
@@ -140,6 +148,31 @@ svg {
     #Tickets > ul > p  {
         border-width:100px;
         width: 323.5px;
+    }
+
+   
+
+    .ui.container > p {
+        display: none;
+    }
+
+    #TicketSummary > div {
+        margin-left: 0px;
+    }
+
+    #TicketSummary > div {
+        margin-left: 0px;
+    }
+
+    #Matthew , #Dunne {
+        margin: 0;
+        margin-left:74px;
+        width: 323px;
+        
+    }
+
+    #Matthew {
+        margin-top: 0%;
     }
 
     #ticketBorder {
