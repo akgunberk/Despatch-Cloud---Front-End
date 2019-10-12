@@ -14,7 +14,19 @@ import {Checkbox} from 'semantic-ui-react';
 
 
 
-const Main = () => (
+
+function Main() {
+
+  function showHide() {
+    var x = document.getElementById("berk");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  return (
   <Grid>
     <Responsive minWidth={415} style={{paddingRight:"0"}}>
     <Grid.Column id ="first" > {/* Left Side Bar which employs mainly ticket types, priorities and tags */}
@@ -31,8 +43,9 @@ const Main = () => (
       <p style={{position:"absolute",left:"14px"}}><Checkbox style={{marginTop:"21.4px"}}></Checkbox>Select All</p>
     </Responsive>
     <Responsive maxWidth={415}>
-      <div id="filter" style={{position:"absolute", left:"400px", top:"350px",backgroundColor:"F5F6F6" ,color:"#4E4E4E",transform: "rotate(270deg)",transformOrigin:"left top 0", border:"solid",fontSize:"12px",}}>
-          Filter
+      <div id="filter" style={{position:"absolute", left:"410px",borderTopLeftRadius:"5px",borderTopRightRadius:"5px",width:"212px", justifyContent:"center",backgroundColor:"rgba(78,78,78,0.11)", top:"321px",/*look for background color of filter*/color:"#4E4E4E",transform: "rotate(270deg)",transformOrigin:"left top 0", border:"none",fontSize:"12px",}}>
+      <button onClick={showHide} style ={{border:"none",background:"transparent",cursor:"pointer"}}>Filter
+      </button>
       </div>
       </Responsive>
     
@@ -55,7 +68,8 @@ const Main = () => (
     </Grid.Column>
     
   </Grid>
-)
+  )
+      }
 
 export default Main;
 

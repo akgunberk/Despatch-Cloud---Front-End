@@ -9,13 +9,18 @@ const TicketList = (props) => (
     <ul style = {{outline:"none",fontSize:"14px", fontWeight:"light", textAlign:"left",marginLeft:"0px",paddingLeft:"0px"}}>
       <Checkbox style = {{position:"absolute", marginTop:"27px"}}></Checkbox>
       <div id = "ticketBorder" style={{ display:"inlineBlock",border:"none",background:"#ffffff", borderWidth:"thin" ,width:"1004px",height:"73px", borderRadius:"8px", paddingLeft:"0px",marginLeft:"46px"}}>
-      <svg style={{float:"left"}} xmlns="http://www.w3.org/2000/svg" width="6" height="73" viewBox="0 0 6 73">
-        <path id="Rectangle_1414" data-name="Rectangle 1414" d="M6,0H6A0,0,0,0,1,6,0V73a0,0,0,0,1,0,0H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" fill="#25bbf3"/>
-      </svg>
+        
+      <svg style = {{position:"absolute"}}  xmlns="http://www.w3.org/2000/svg" width="6" height="73" viewBox="0 0 6 73">
+          <path id="Rectangle_1414" data-name="Rectangle 1414" d="M6,0H6A0,0,0,0,1,6,0V73a0,0,0,0,1,0,0H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" fill="#25bbf3"/>
+        </svg>
+        
 
       
 
       <Responsive minWidth={415}>
+      <svg styl = {{float:"left"}} xmlns="http://www.w3.org/2000/svg" width="6" height="73" viewBox="0 0 6 73">
+          <path id="Rectangle_1414" data-name="Rectangle 1414" d="M6,0H6A0,0,0,0,1,6,0V73a0,0,0,0,1,0,0H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" fill="#25bbf3"/>
+        </svg>
       <svg style ={{marginTop:"20px",marginRight:"19.9px"}} xmlns="http://www.w3.org/2000/svg" width="34.082" height="34.082" viewBox="0 0 34.082 34.082">
         <g id="NoPath_-_Copy_6_" data-name="NoPath - Copy (6)" fill="#f39c12" stroke="#fff" stroke-width="2">
           <circle cx="17.041" cy="17.041" r="17.041" stroke="none"/>
@@ -27,9 +32,9 @@ const TicketList = (props) => (
       
       
       <div id = "TicketSummary" style = {{display:"inlineBlock"}} >
-        <div style={{display:"block",width:"200px"}}>
+        <div style={{display:"block",width:"323px"}}>
         <Responsive  maxWidth = {415}>
-                  <img style = {{position:"absolute", margin:"0"}}src = {ShopLogo} alt = "admin" ></img>
+                  <img style = {{position:"absolute", left:"83.2px"}}src = {ShopLogo} alt = "admin" ></img>
               </Responsive>
         <p id="Matthew" style = {{fontSize:"16px",fontWeight:"bold",marginBottom:"6px",marginTop:"15px",width:"185px"}}>
              
@@ -37,7 +42,7 @@ const TicketList = (props) => (
            </p> 
         <div id ="Dunne" style={{display:"flexBox"}}>{props.summary}<p style={{color:"#25BBF3",fontSize:"10px",marginTop:"4px"}} >&nbsp; ({props.id})</p></div>
         </div>
-        <Responsive style= {{float:"right",marginLeft:"80px", position:"relative", top:"24px",bottom:"22px"}} minWidth = {415}> 
+        <Responsive style= {{float:"right",marginLeft:"0px", position:"relative", top:"24px",bottom:"22px"}} minWidth = {415}> 
           <p style={{width:"396.35px"}}>{props.context}</p>
           <p style={{color:"#2ECC71",marginRight:"46px"}}>{props.priority}</p> 
           <p style={{marginRight:"28px",width:"82px"}}>{props.hour}</p>
